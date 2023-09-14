@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Rubik",sans-serif ;
+}
+body{
+    background-color: rgb(255, 234, 141);
+}
+h1{ 
+    position: absolute;
+    top: 9px;
+    display: block;
+    background-color: rgb(111, 255, 255);
+    border: none;
+    padding: 8px;
+    font-size: 18px; 
+    color: black;
+    border-radius: 3px 20px 20px 3px;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin:0 auto; 
+    left: 0.6px;
+}
+
+.vishal{
+    width: 80vmin;
+    padding: 50px 40px ;
+    background-color: black;
+    position:absolute ;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 20px 20px 40px rgba(97,63, 0,0.4);
+    border-color: #6fedc7;
+    border-style: double;  
+      
+}
+span{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 2s;
+}
+p{
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    word-wrap: break-word;
+    margin: 30px 0;
+}
+
+button {
+    display: block;
+    background-color: rgb(255, 234, 141);
+    border: none;
+    padding: 8px;
+    font-size: 18px; 
+    color: black;
+    border-radius: 10px 5px;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer; 
+    margin: 0 auto;
+}
+
+
+
+
+
